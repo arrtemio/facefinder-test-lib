@@ -1,0 +1,7 @@
+.button {
+  padding: 5px 10px;
+  border: 1px solid var(--inverted-bg-color);
+  background-color: var(--bg-color);
+  color: var(--inverted-bg-color);
+  cursor: pointer;
+}

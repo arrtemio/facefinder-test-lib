@@ -1,0 +1,15 @@
+@import 'reset.css';
+@import 'themes/dark';
+@import 'themes/light';
+
+#facefinder-app {
+  min-height: 100vh;
+  display: flex;
+}
+
+.main {
+  flex-grow: 1;
+  width: 100%;
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+}

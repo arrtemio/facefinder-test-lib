@@ -1,0 +1,8 @@
+.app_light_theme, #facefinder-app {
+  --bg-color: #eeeaea;
+  --inverted-bg-color: #333338;
+  --primary-color: #000;
+  --inverted-primary-color: #cbc7c7;
+  --secondary-color: #4f4c4c;
+  --inverted-secondary-color: #b7b4b4;
+}

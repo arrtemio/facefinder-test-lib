@@ -1,0 +1,19 @@
+.navbar-wrapper {
+    height: 50px;
+    display: flex;
+    background: var(--inverted-bg-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar__buttons {
+  display: flex;
+  gap: 15px;
+}
