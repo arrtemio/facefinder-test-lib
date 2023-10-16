@@ -1,10 +1,24 @@
-@import 'reset.css';
-@import 'themes/dark';
-@import 'themes/light';
-
 #facefinder-app {
   min-height: 100vh;
   display: flex;
+}
+
+.app_dark_theme, #facefinder-app {
+  --bg-color: #333338;
+  --inverted-bg-color: #a6a4a4;
+  --primary-color: #afafaf;
+  --inverted-primary-color: #383838;
+  --secondary-color: #a9a9a9;
+  --inverted-secondary-color: #3b3b3b;
+}
+
+.app_light_theme, #facefinder-app {
+  --bg-color: #eeeaea;
+  --inverted-bg-color: #333338;
+  --primary-color: #000;
+  --inverted-primary-color: #cbc7c7;
+  --secondary-color: #4f4c4c;
+  --inverted-secondary-color: #b7b4b4;
 }
 
 .main {

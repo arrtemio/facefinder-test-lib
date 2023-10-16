@@ -1,8 +1,9 @@
-import { Button } from "../../../shared/button/Button";
+import React from "react";
+import  { Button } from "../../../shared/button";
 import { FormattedMessage } from "react-intl";
 import { FC } from "react";
 
-interface LangSwitcherProps {
+export interface LangSwitcherProps {
     changeLanguage: () => void;
 }
 

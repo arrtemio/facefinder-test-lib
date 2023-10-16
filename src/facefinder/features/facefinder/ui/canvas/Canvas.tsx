@@ -1,13 +1,13 @@
-import { FC, memo } from 'react';
+import React, { FC, memo } from 'react';
 
 import './Canvas.css';
 
-interface CanvasProps {
+export interface CanvasProps {
     firstShot: string | null;
     secondShot: string | null;
 }
 
-const Canvas: FC<CanvasProps> = memo(({firstShot, secondShot}) => {
+ export const Canvas: FC<CanvasProps> = memo(({firstShot, secondShot}) => {
 
     return (
         <>
@@ -23,4 +23,3 @@ const Canvas: FC<CanvasProps> = memo(({firstShot, secondShot}) => {
     );
 });
 
-export default Canvas;

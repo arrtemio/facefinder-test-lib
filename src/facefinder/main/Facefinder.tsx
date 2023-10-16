@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { useTheme } from "../providers/ThemeProvider/lib/UseTheme";
-import { FacefinderWrapper } from "../features/facefinder/ui/facefinder-wrapper/FacefinderWrapper";
-import { Navbar } from "../widgets/navbar";
+import { useTheme } from "../providers/ThemeProvider";
+import { FacefinderWrapper } from "../features/facefinder";
+import { Navbar } from "../widgets";
 
 import '../styles/index.css'
 import { IntlProvider } from "react-intl";

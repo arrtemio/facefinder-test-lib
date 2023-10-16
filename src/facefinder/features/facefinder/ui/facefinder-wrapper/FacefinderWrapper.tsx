@@ -1,9 +1,9 @@
-import { memo, useCallback, useEffect, useState } from 'react';
+import React, { memo, useCallback, useEffect, useState } from 'react';
 import { startStream } from "../../model/startStream";
 
-import Message from "../message/Message";
-import Canvas from "../canvas/Canvas";
-import Pictures from "../pictures/Pictures";
+import { Message } from "../message";
+import { Canvas } from "../canvas";
+import { Pictures } from "../pictures";
 
 import './FacefinderWrapper.css';
 

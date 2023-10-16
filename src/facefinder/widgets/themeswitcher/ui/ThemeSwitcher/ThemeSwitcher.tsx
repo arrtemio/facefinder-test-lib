@@ -1,7 +1,7 @@
-import { memo } from 'react';
-import { useTheme } from "../../../../providers/ThemeProvider/lib/UseTheme";
-import { Theme } from "../../../../providers/ThemeProvider/lib/ThemeContext";
-import { Button } from "../../../../shared/button/Button";
+import React, { memo } from 'react';
+import { useTheme } from "../../../../providers/ThemeProvider";
+import { Theme } from "../../../../providers/ThemeProvider";
+import { Button } from "../../../../shared/button";
 import { FormattedMessage } from "react-intl";
 
 export const ThemeSwitcher = memo(() => {

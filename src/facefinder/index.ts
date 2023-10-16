@@ -1,3 +1,4 @@
-export { ThemeProvider } from "./providers/ThemeProvider/ui/ThemeProvider";
+export { ThemeProvider } from "./providers/ThemeProvider";
 
-export { Facefinder } from "./main/Facefinder";
+export { Facefinder } from "./main";
+

@@ -1,11 +1,11 @@
-import { FC, memo } from 'react';
+import React, { FC, memo } from 'react';
 
 import { ThemeSwitcher } from "../../themeswitcher";
-import { LangSwitcher } from "../../langswitcher/ui/LangSwitcher";
+import { LangSwitcher } from "../../langswitcher";
 
 import './Navbar.css';
 
-interface NavbarProps {
+export interface NavbarProps {
     changeLanguage: () => void;
 }
 

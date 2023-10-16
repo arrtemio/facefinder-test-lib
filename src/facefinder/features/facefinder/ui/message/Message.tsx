@@ -1,13 +1,13 @@
-import { FC, memo } from 'react';
-import { FormattedMessage } from "react-intl";
+import React, { FC, memo } from 'react';
+import  { FormattedMessage } from "react-intl";
 
 import './Message.css';
 
-interface MessageProps {
+export interface MessageProps {
     message: string | undefined;
 }
 
-const Message: FC<MessageProps> = memo(({message}) => {
+export const Message: FC<MessageProps> = memo(({message}) => {
 
     return (
         <div className='message-wrapper'>
@@ -20,4 +20,3 @@ const Message: FC<MessageProps> = memo(({message}) => {
     );
 });
 
-export default Message;
